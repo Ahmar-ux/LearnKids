@@ -1,3 +1,4 @@
+//For more queries contact at: kuhaxa@gmail.com
 using UnityEngine;
 
 public class BackgroundScroller : MonoBehaviour
@@ -55,3 +56,4 @@ public class BackgroundScroller : MonoBehaviour
         return maxX;
     }
 }
+
