@@ -1,3 +1,11 @@
+//How to use 
+// Attach this script to your player object
+// Add ground check,Add camera 
+// Add values for movement and camera values on x,y and z axis press start 
+// Add layer to avoid camera going outside the ground
+// if it shows any error change input type to old input system
+// how to change it go to edit/ on left select (player)/ on main screen open (Othersetting ) And scroll down and find input system
+// Change to old input or both what you want it will restart and press start it will move player 
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -151,3 +159,4 @@ public class ThirdPersonControllerRB : MonoBehaviour
         cameraTransform.rotation = Quaternion.Slerp(cameraTransform.rotation, cameraRot, Time.deltaTime * 12f);
     }
 }
+
